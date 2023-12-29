@@ -1,3 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 body{
-    background-color: beige;
+    /* background-color: rgb(228, 209, 185); */
+    padding: 20px;
+    font-size: 16px;
+    font-family: Geneva, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+}
+
+h1{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 3rem;
+}
+p{
+    font-size: 2rem;
+    text-align: center;  
+    margin-bottom: 10px;  
+}
+
+form{
+    max-width: 500px;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 1.5em;
+    background-color: whitesmoke;
+    padding: 10px 20px;
+    border: 3px double gray;
+}
+label{
+    display: block;
+    margin: 10px auto;
+    font-size: 1.2rem;
+    /* background-color: yellow; */
+}
+input{
+    height: 30px;
+    vertical-align: middle;
+    min-width: 1rem;
+}
+textarea{
+    display: block;
+    margin-top: 10px;
+    width: 100%;
+}
+
+input[type="submit"]{
+    width: 100%;
+    background-color: green;
+    border: none;
+    color: white;
+    font-weight: bold;
 }
