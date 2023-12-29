@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="title">Imole Survey Form</h1>
+    <p id="discription">Thank you for taking the time to fill this survey</p>
+    <form action="" id="survey-form">
+        <label id="name-label" for="name">Name: <input type="text" id="name" placeholder="Enter your name..." required></label>
+        <label id="email-label" for="email">Email: <input type="email" id="email" placeholder="Enter a valid email..." required></label>
+        <label id="number-label" for="number">Age: <input type="number" id="number" min="18" max="45" placeholder="Enter your age btw 18 and 45."></label>
+        <label for="dropdown">
+            <select name="occupation" id="dropdown">
+                <option value="Trader">Trader</option>
+                <option value="Physician">Physician</option>
+                <option value="Lecturer">Lecturer</option>
+                <option value="Unemployed">Unemployed</option>
+            </select>
+        </label>
+        <label for="">Would You recommend us? 
+            <label for=""><input type="radio" name="recommend" checked> Yes</label>
+            <label for=""><input type="radio" name="recommend"> No</label>
+            <label for=""><input type="radio" name="recommend"> Maybe</label>
+        </label>
+        <label for="">Tell us your Hobbies:
+            <label for=""><input type="checkbox" name="" id="" value="Swimming"> Swimming</label>
+            <label for=""><input type="checkbox" name="" id="" value="Reading"> Reading</label>
+            <label for=""><input type="checkbox" name="" id="" value="Coding"> Coding</label>
+            <label for=""><input type="checkbox" name="" id="" value="Surfing"> Surfing</label>
+            <label for=""><input type="checkbox" name="" id="" value="Travelling"> Travelling</label>
+            <label for=""><input type="checkbox" name="" id="" value="Climbing"> Climbing</label>
+            <label for=""><input type="checkbox" name="" id="" value="Cycling"> Cycling</label>
+            <label for=""><input type="checkbox" name="" id="" value="Watching movies"> Watching movies</label>
+        </label>
+        <label for="">Comment:
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+        </label>
+        <input id="submit" type="submit" value="Submit">
+    </form>
+    
+</body>
+</html>
